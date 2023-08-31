@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- Coding By: Daniel Pasaribu -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="shortcut icon" href="assets/icon-school.png" type="image/png">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR START -->
+    <nav>
+        <div class="logo">
+            <a href="#"><img src="assets/logo-sma.png" alt="Logo RevoU" >SMA NEGERI 17 MEDAN</a>
+        </div>
+        <div class="toggle">
+            <a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu-navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Our Profile</a></li>
+            <li><a href="#menu">Achievment</a></li>
+            <li><a href="#contact">Message Us</a></li>
+        </ul>
+    </nav>
+    <!-- NAVIGATION BAR END -->
+
+    <!-- SECTION START -->
+    <section class="home" id="home">
+        <main class="content">
+            <marquee behavior="scroll" direction="left">
+                <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Hi <span id="name"></span>, Welcome to Website<span class="beda"> SMA Negeri 17 Medan</span></h1>
+            </marquee>
+        </main>
+    </section>
+    <!-- SECTION END -->
+
+    <!-- SECTION PROFILE START -->
+    <section class="about" id="about">
+        <h2><span>Profile</span> SMA NEGERI 17 MEDAN</h2>
+        <div class="row">
+            <div class="about-img">
+                <img class="img-slideshow" src="assets/bg-profile.jpg" alt="profile1">
+                <img class="img-slideshow" src="assets/bg-profile2.jpg" alt="profile2">
+                <img class="img-slideshow" src="assets/bg-siswa.jpg" alt="bg-siswa">
+                <img class="img-slideshow" src="assets/bg-prestasi.jpg" alt="bg-siswa">
+                <img class="img-slideshow" src="assets/bg-guru.jpg" alt="bg-siswa">
+                <img class="img-slideshow" src="assets/bg-guru2.jpg" alt="bg-siswa">
+                <img class="img-slideshow" src="assets/bg-guru3.jpg" alt="bg-siswa">
+                <img class="img-slideshow" src="assets/bg-kepsek.jpg" alt="bg-siswa">
+                <img class="img-slideshow" src="assets/lab-computer.jpg" alt="bg-siswa">
+                <div><button class="btn1"  onclick="plusDivs(-1)"> < </button>
+                <button class="btn2"  onclick="plusDivs(1)"> > </button></div>
+            </div>
+            <div class="content">
+                <h3>Visi</h3>
+                <p>Unggul dalam prestasi, yang Bermartabat berdasarkan IMTAQ dan Berbasis lingkungan</p>
+                <h3>Misi</h3>
+                <ol>
+                    <li>
+                        Menyelenggarakan proses pembelajaran dan bimbingan konseling secara efektif</li>
+                    <li>
+                        Menegakkan kedisiplinan yang religious Bermartabat dan beretika bagi semua warga sekolah</li>
+                    <li>
+                        Memberdayakan potensi sekolah untuk melengkapi sarana dan prasarana serta administrasi guna mengembangkan aktifitas dan ktreatifitas yang bermutu serta  berwawasan  lingkungan.</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION PROFILE END -->
+
+    <!-- SECTION FACILITATION START -->
+    <section class="menu" id="menu">
+        <h2><span>Our</span> Facilitation</h2>
+        <p>SMA Negeri 17 Medan provides adequate facilities to support learning activities and meet the needs of students and teachers, for example classrooms, biology laboratories, computer labs, sports halls, canteens, and others</p>
+        <div class="row">
+            <div class="menu-card">
+                <img src="assets/teacher.png" alt="teacher" class="menu-card-img">
+                <h3 class="menu-card-title">Professional & Experienced Teacher</h3>
+                <p class="menu-card-price">The team of teachers and instructors at SMA Negeri 17 Medan are individuals who are very professional and experienced in their respective fields. They have a strong commitment to teaching, educating, and mentoring students</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/sports-room.png" alt="latte" class="menu-card-img">
+                <h3 class="menu-card-title">Sport Field</h3>
+                <p class="menu-card-price">the sports hall owned by SMA Negeri 17 Medan provides modern tools and equipment for exercising, and has a sports field that is quite wide and spacious</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/class-room.png" alt="latte" class="menu-card-img">
+                <h3 class="menu-card-title">Classroom</h3>
+                <p class="menu-card-price"> SMAN 17 Medan has a total of 24 classrooms consisting of 8 class X classrooms, 8 class XI classrooms, and 8 class XII classrooms</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/lab-biology.png" alt="lab-biology" class="menu-card-img">
+                <h3 class="menu-card-title">Biology Lab</h3>
+                <p class="menu-card-price">
+                    Our biology laboratory is a place to carry out experimental practice for students, supported by adequate and sufficient tools and equipment for carrying out practice</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/canteen.png" alt="latte" class="menu-card-img">
+                <h3 class="menu-card-title">Canteen</h3>
+                <p class="menu-card-price">at SMA 17 Medan there are 3 canteens with a variety of food and drinks to reduce the hunger of students during break times, these three canteens also offer various prices for food and drinks</p>
+            </div>
+            <div class="menu-card">
+                <img src="assets/lab-computer.png" alt="latte" class="menu-card-img">
+                <h3 class="menu-card-title">Computer-Lab</h3>
+                <p class="menu-card-price">The computer and language laboratory at SMAN 17 Medan has multi-functions starting from computer learning for students, conducting computer-based exams, and being used for state high school entrance selection tests.</p>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION FACILITATION END -->
+
+     <!-- SECTION CONTACT START -->
+     <section class="contact" id="contact">
+        <h2>
+          Message <span>Us</span>
+        </h2>
+        <div class="row">
+          <form name="message-form" onsubmit="return false;">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+  
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required />
+  
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+  
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <div id="formWarning" class="warning"></div>
+            <button type="button" onclick="submitForm()">Submit</button>
+          </form>
+          <div id="result"></div>
+        </div>
+      </section>
+      <!-- SECTION CONTACT END -->
+
+      <!-- FOOTER START -->
+      <footer>
+        <div class="credit">
+          <p>
+            Created by
+            <a href="https://portfolio-danielpsrb.vercel.app/" target="_blank"
+              >Daniel Pasaribu</a
+            > | &copy; 2023 All rights reserved
+          </p>
+        </div>
+      </footer>
+      <!--FOOTER END-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
